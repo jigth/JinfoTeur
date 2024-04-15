@@ -1,0 +1,2 @@
+export MEGA_EMAIL=myemail@somedomain.com
+export MEGA_PASSWORD=password_for_that_email_account_goes_here
