@@ -12,6 +12,16 @@ Also this project is licensed as MIT so you are free to use it however you want 
 
 The idea is to be able to upload and manage different kinds of digital content (multimedia files, images, video, text, etc) allowing for multiple visibility levels for them (private or public), expose that content through an API and some Frontend client (PWA or Web client).
 
+## Most Important Domain Concepts of this app.
+
+1. Everything's based around the concept of integrations with other services whenever possible, ideally they should be cheap or "free" (able to be self-hosted).
+
+2. Categories and tags will act as a means to organize information, the idea is to make the system as flexible as possible. Initially most categories will be created as default categories, with the possibility to create more categories with a default UI/UX and functionality (personalization in this matter is not a priority).
+
+3. It will be possible to create arbitrary subcategories within any subcategory to further organize its information.
+
+4. Global search functionality will be implemented to browse information more easily.
+
 ## Architecture:
 
 The following diagram is a result of a thought process about an information system that allows to manage information in the most simple possible (yet secure) way. Premium or GoodToHave features are intentionally avoided initially to focus all energy into the MustHave features.
